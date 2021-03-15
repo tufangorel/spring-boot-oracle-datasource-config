@@ -43,7 +43,7 @@ public class CustomerJPAOracle18DataSourceConfig {
 
     Properties additionalJpaProperties(){
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "none");
+        properties.setProperty("hibernate.hbm2ddl.auto", "create"); // none
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.Oracle12cDialect");
         properties.setProperty("hibernate.show_sql", "true");
         properties.setProperty("hibernate.temp.use_jdbc_metadata_defaults", "false");
