@@ -20,12 +20,17 @@ C:\Users\Tufan>mvn install:install-file -Dfile=C:/Users/Tufan/Downloads/ojdbc8.j
 **3-) Create a new user for oracle database and give access rights**
 
 create user CUST identified by "123456";
+
 grant create session to CUST;
 
 grant connect to CUST;
+
 grant create table to CUST;
+
 grant create sequence to CUST;
+
 grant create trigger to CUST;
+
 
 **4-) Run maven command to execute integration test and connect to oracle database 18 from spring boot application.**
 
