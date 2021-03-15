@@ -1,6 +1,7 @@
 # spring-boot-oracle-datasource-config
 
 **1-) Download ojdbc8 driver from oracle web site**
+
 Could not find artifact com.oracle:ojdbc:jar:18.0.0 in central2
 
 https://www.oracle.com/database/technologies/appdev/jdbc-ucp-183-downloads.html
@@ -26,4 +27,6 @@ grant create table to CUST;
 grant create sequence to CUST;
 grant create trigger to CUST;
 
-**4-) Run mvn clean install command where your pom.xml file located.**
+**4-) Run maven command to execute integration test and connect to oracle database 18 from spring boot application.**
+
+> mvn clean install
