@@ -13,9 +13,11 @@ https://www.oracle.com/database/technologies/appdev/jdbc-ucp-183-downloads.html
 C:\Users\Tufan>mvn install:install-file -Dfile=C:/Users/Tufan/Downloads/ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=18.0.0 -Dpackaging=jar
 
 [INFO] Installing C:\Users\Tufan\Downloads\ojdbc8.jar to C:\Users\Tufan\.m2\repository\com\oracle\ojdbc8\18.0.0\ojdbc8-18.0.0.jar
+
 [INFO] Installing C:\Users\Tufan\AppData\Local\Temp\mvninstall5271470864250313861.pom to C:\Users\Tufan\.m2\repository\com\oracle\ojdbc8\18.0.0\ojdbc8-18.0.0.pom
 
 [INFO] ------------------------------------------------------------------------
+
 [INFO] BUILD SUCCESS
 
 **3-) Create a new user for oracle database and give access rights**
