@@ -19,6 +19,8 @@ C:\Users\Tufan>mvn install:install-file -Dfile=C:/Users/Tufan/Downloads/ojdbc8.j
 
 **3-) Create a new user for oracle database and give access rights**
 
+alter session set "_ORACLE_SCRIPT"=true;
+
 create user CUST identified by "123456";
 
 grant create session to CUST;
