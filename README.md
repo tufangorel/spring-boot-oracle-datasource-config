@@ -39,4 +39,10 @@ grant create trigger to CUST;
 
 **4-) Run maven command to execute integration test and connect to oracle database 18 from spring boot application.**
 
-> mvn clean install
+D:\DEV\IntelliJProjects\spring-boot-oracle-datasource-config> **.\mvnw.cmd clean install**
+
+[INFO] ------------------------------------------------------------------------<br/>
+[INFO] BUILD SUCCESS<br/>
+[INFO] ------------------------------------------------------------------------<br/>
+
+
