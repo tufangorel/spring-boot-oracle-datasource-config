@@ -25,3 +25,15 @@ hs_err_pid*
 /target/
 /.idea/
 /.mvn/
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/.jpb/jpb-settings.xml
